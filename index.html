@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/b7617779d7.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/hot-logo.png" alt="Logo" class="logo">
+        </div>
+        
+        <div class="menu-toggle" id="menuToggle">☰</div>
+        
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Accounts</a></li>
+                <li><a href="#">Platforms</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>HotForex App</h1>
+            <p>Your Indispensable Tool</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit</li>
+                <li>Lorem ipsum dolor sit amet consectetur</li>
+            </ul>
+            <div class="hero-logos">
+                <img src="assets/app-store-logo.png" alt="App Store" class="store-logo">
+                <img src="assets/google-play-logo.png" alt="Google Play" class="store-logo">
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/hero-image.png" alt="Hero Image" class="hero-img">
+        </div>
+    </section>
+
+    <section class="form-section">
+        <form class="form-grid">
+            <div class="form-group">
+                <label for="firstName" class="sr-only">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName" class="sr-only">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="sr-only">Email Address</label>
+                <input type="email" id="email" name="email"m placeholder="Email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="country" class="sr-only">Country of Residence</label>
+                <select id="country" name="country" required>
+                    <option value="">Country of Residence</option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="AU">Australia</option>
+                    <option value="DE">Germany</option>
+                    <option value="FR">France</option>
+                    <option value="JP">Japan</option>
+                    <option value="IN">India</option>
+                    <option value="BR">Brazil</option>
+                    <option value="MX">Mexico</option>
+                    <!-- Add more countries as needed -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="phone" class="sr-only">Phone Number</label>
+                <div class="phone-group">
+                    <div class="country-code">
+                        <input type="text" id="countryCode" name="countryCode" readonly>
+                    </div>
+                    <div class="phone-number">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="currency" class="sr-only">Currency</label>
+                <select id="currency" name="currency" required>
+                    <option value="USD">USD ($)</option>
+                    <option value="EUR">EUR (€)</option>
+                    <option value="GBP">GBP (£)</option>
+                    <option value="JPY">JPY (¥)</option>
+                    <option value="CAD">CAD ($)</option>
+                    <option value="AUD">AUD ($)</option>
+                    <!-- Add more currencies as needed -->
+                </select>
+            </div>
+            
+            <div class="form-group agreement-group">
+                    <input type="checkbox" id="agreement" name="agreement" required>
+                    <span class="checkmark"></span>
+                    <label for="agreement">I have read and accepted the privacy policy Trading Forex & CFDs is risky</label>
+            </div>
+
+            <div class="form-group submit-group">
+               <button type="submit" class="submit-btn">Register</button>
+            </div>
+
+        </form>
+    </section>
+
+    <section class="features-section">
+        <h2 class="features-title">This is dummy title</h2>
+        <div class="features-grid">
+            <div class="card card1">
+                <div class="card-image">
+                    <img src="assets/icons/icon1.png" alt="Imagen descriptiva" class="card-icon">
+                </div>
+                <div class="card-content">
+                    <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="card-image">
+                    <img src="assets/icons/icon2.png" alt="Imagen descriptiva" class="card-icon">
+                </div>
+                <div class="card-content">
+                    <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <img src="assets/phones-jumbo.png" alt="Hero Image" class="features-img"> 
+            <div class="card card3">
+                <div class="card-image">
+                    <img src="assets/icons/icon3.png" alt="Imagen descriptiva" class="card-icon">
+                </div>
+                <div class="card-content">
+                    <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="card-image">
+                    <img src="assets/icons/icon4.png" alt="Imagen descriptiva" class="card-icon">
+                </div>
+                <div class="card-content">
+                    <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-image">
+            <img src="assets/white-phones-jumbo.png" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h2 class="about-title">What is Lorem Ipsum?</h2>
+            <h3 class="about-subtitle">Lorem Ipsum is simply dummy</h3>
+            <h4 class="about-text-title">Lorem ipsum passages</h3>
+            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolore, voluptatibus alias nesciunt facere quaerat asperiores eaque harum est quam quos atque tempora repellendus sapiente vel aperiam laudantium minima autem?</p>
+            <h4 class="about-text-title">Lorem ipsum passages</h3>
+            <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit iste magnam veniam! Neque architecto rem blanditiis, eum labore aliquid modi. Numquam cupiditate voluptatem aspernatur totam, sint perferendis veniam ad tenetur!</p>
+            <h4 class="about-text-title">Lorem ipsum passages</h3>
+            <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae hic esse repudiandae veritatis odio aliquam cupiditate quam alias eligendi, dolore quidem reiciendis possimus eos culpa odit, voluptatem voluptatibus iusto ducimus!</p>
+        </div> 
+    </section>
+
+    <section class="download-section">
+        <div class="download-content">
+            <p class="download-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere.</p>
+            <p><a href="#">Download it now</a></p>
+            <div class="download-logos">
+                <img src="assets/app-store-logo.png" alt="App Store" class="store-logo">
+                <img src="assets/google-play-logo.png" alt="Google Play" class="store-logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="awards-section">
+        <div class="awards-content">
+            <p class="awards-title"><i class="fa-solid fa-trophy"></i></span> Winner of 19 Industry Awards</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i>suport@hfeu.com</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i>+345-34-355677</a></li>
+                <li><a href="#"><i class="fa-solid fa-comments"></i>Live Chat</a></li>
+            </ul>
+        </div>
+        <div class="footer-about">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About HotForex</a></li>
+                <li><a href="#">Why HotForex</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Awards</a></li>
+            </ul>
+        </div>
+        <div class="footer-products">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="#">About HotForex</a></li>
+                <li><a href="#">Why HotForex</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Awards</a></li>
+            </ul>
+        </div>
+        <div class="footer-promotions">
+            <h3>Promotions</h3>
+            <ul>
+                <li><a href="#">About HotForex</a></li>
+                <li><a href="#">Why HotForex</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Awards</a></li>
+            </ul>
+        </div>
+        <div class="footer-affiliates">
+            <h3>Affiliates</h3>
+            <ul>
+                <li><a href="#">About HotForex</a></li>
+                <li><a href="#">Why HotForex</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Awards</a></li>
+            </ul>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+</html>
